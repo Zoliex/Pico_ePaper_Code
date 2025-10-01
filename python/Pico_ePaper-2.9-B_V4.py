@@ -35,12 +35,12 @@ import utime
 EPD_WIDTH       = 128
 EPD_HEIGHT      = 296
 
-SCK_PIN         = 10
-DIN_PIN         = 11
-RST_PIN         = 12
-DC_PIN          = 8
-CS_PIN          = 9
-BUSY_PIN        = 13
+SCK_PIN         = 48
+DIN_PIN         = 38
+RST_PIN         = 10
+DC_PIN          = 17
+CS_PIN          = 18
+BUSY_PIN        = 9
 
 class EPD_2in9_B_V4_Portrait:
     def __init__(self):
